@@ -1,7 +1,7 @@
 package com.designpatterns.behavioral.strategy.order;
 
-import com.designpatterns.behavioral.strategy.order.model.Product;
-import com.designpatterns.behavioral.strategy.order.model.SalesProduct;
+import com.designpatterns.common.domain.order.Product;
+import com.designpatterns.common.domain.order.SalesProduct;
 
 public class ProductOrderingApp {
   public static void main(String[] args) {

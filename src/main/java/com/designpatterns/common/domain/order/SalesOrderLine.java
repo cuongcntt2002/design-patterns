@@ -1,4 +1,4 @@
-package com.designpatterns.behavioral.strategy.order.model;
+package com.designpatterns.common.domain.order;
 
 public class SalesOrderLine implements OrderLine {
   private final Product product;

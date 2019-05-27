@@ -1,8 +1,8 @@
 package com.designpatterns.behavioral.strategy.order;
 
-import com.designpatterns.behavioral.strategy.order.model.OrderLine;
-import com.designpatterns.behavioral.strategy.order.model.Product;
-import com.designpatterns.behavioral.strategy.order.model.SalesOrderLine;
+import com.designpatterns.common.domain.order.OrderLine;
+import com.designpatterns.common.domain.order.Product;
+import com.designpatterns.common.domain.order.SalesOrderLine;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ public class SalesOrder implements Order {
   private PricingStrategy strategy;
   private List<OrderLine> orderLines = new ArrayList<>();
 
-  public SalesOrder(PricingStrategy strategy) {
+  SalesOrder(PricingStrategy strategy) {
     this.strategy = strategy;
   }
 

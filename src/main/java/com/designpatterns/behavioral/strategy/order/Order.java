@@ -1,6 +1,6 @@
 package com.designpatterns.behavioral.strategy.order;
 
-import com.designpatterns.behavioral.strategy.order.model.Product;
+import com.designpatterns.common.domain.order.Product;
 
 public interface Order {
   long getPrice();
