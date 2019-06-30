@@ -1,9 +1,0 @@
-plugins {
-  id 'java'
-  id 'application'
-}
-
-mainClassName = 'com.designpatterns.App'
-
-sourceCompatibility = '1.8'
-targetCompatibility = '1.8'
